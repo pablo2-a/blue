@@ -1,0 +1,12 @@
+﻿{
+  "name": "ESP32 BLE Spam",
+  "version": "1.0",
+  "builds": [
+    {
+      "chipFamily": "ESP32",
+      "parts": [
+        { "path": "firmware.bin", "offset": 65536 }
+      ]
+    }
+  ]
+}
